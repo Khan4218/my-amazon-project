@@ -32,6 +32,7 @@ The project is actively being developed. Upcoming JavaScript functionality will 
 ## 📁 Folder Structure
 
 my-amazon-project/
+|__ index.html
 ├── amazon.html
 ├── checkout.html
 ├── orders.html
@@ -63,6 +64,10 @@ my-amazon-project/
 🎬 _Coming soon_ – a walkthrough recording to explain structure, features, and future plans.
 
 ---
+
+## How to see my project
+    Just visit my landing page https://khan4218.github.io/my-amazon-project/
+    
 
 ## 👨‍💻 Author
 
