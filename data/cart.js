@@ -43,7 +43,7 @@ export function addToCart(productId) {
 
       productId: productId,
       quantity: quantity,
-      deliveryOptionID: '1'
+      deliveryOptionId: '1'
     });
   }
 
