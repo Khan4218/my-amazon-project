@@ -1,53 +1,117 @@
-# 🛒 Amazon Clone (In Progress)
+# 🛒 Amazon Clone by Akbar Khan
 
-A front-end Amazon-style eCommerce clone built using HTML, CSS, and JavaScript. This project aims to replicate key features of Amazon's user experience including product listings, navigation, and cart functionality.
-
----
-
-## 📦 Current Features
-
-- Multi-page layout:
-  - `amazon.html` (home)
-  - `checkout.html`
-  - `orders.html`
-  - `tracking.html`
-- Organized file structure with `scripts`, `styles`, and `images`
-- Responsive design foundation using clean HTML/CSS
-- Image assets organized by category (icons, products, ratings)
+A fully functional Amazon-style eCommerce front-end clone built using HTML, CSS, and JavaScript. This project replicates key features of Amazon's UI and user experience, including product listings, cart functionality, checkout flow, and order tracking.
 
 ---
 
-## 🚧 In Progress
+## ✅ Features Implemented
 
-The project is actively being developed. Upcoming JavaScript functionality will include:
+- **Multi-Page Layout:**
+  - `amazon.html` – Homepage with product listings
+  - `checkout.html` – Cart view with total calculation
+  - `orders.html` – Simulated order history
+  - `tracking.html` – Order delivery tracking
 
-- ✅ Add to cart with item tracking
-- ✅ Cart total calculation
-- ✅ Cart persistence using `localStorage`
-- ✅ Dynamic rendering of products and quantities
-- ✅ Navigation-based order flow
+- **JavaScript Functionality:**
+  - Add-to-cart buttons for all products
+  - Real-time quantity and subtotal updates
+  - Cart persistence using `localStorage`
+  - Dynamic product rendering from modularized data
+  - Order simulation and price calculation logic
+
+- **Responsive Design:**
+  - Mobile-friendly layout using Flexbox & Grid
+  - Consistent styling across reusable components
+
+- **Organized File Structure:**
+  - `scripts/` – JavaScript logic
+  - `styles/` – Shared and page-specific CSS
+  - `images/` – Categorized assets (icons, products, ratings)
 
 ---
+
+## 📚 Concepts Applied
+
+- DOM manipulation
+- Event listeners & delegation
+- `localStorage`
+- Modular JS with separate files
+- JavaScript objects, arrays, and methods
+- Loops, conditionals, and user input handling
+
 
 ## 📁 Folder Structure
 
 my-amazon-project/
-|__ index.html
 ├── amazon.html
 ├── checkout.html
+├── index.html
 ├── orders.html
 ├── tracking.html
 ├── README.md
-├── scripts/
-│ └── amazon.js
-├── styles/
-│ ├── pages/
-│ └── shared/
+│
+├── backend/
+│ └── products.json
+│
+├── data/
+│ ├── backend-practice.js
+│ ├── cart.js
+│ ├── cart-oop.js
+│ ├── cart-class.js
+│ ├── deliveryoptions.js
+│ ├── orders.js
+│ └── products.js
+│
 ├── images/
 │ ├── icons/
 │ ├── products/
+│ ├── products/variations/
 │ └── ratings/
+│
+├── scripts/
+│ ├── amazon.js
+│ ├── checkout.js
+│ ├── checkout/orderSummary.js
+│ ├── checkout/paymentSummary.js
+│ └── utils/money.js
+│
+├── styles/
+│ ├── pages/
+│ │ ├── amazon.css
+│ │ ├── orders.css
+│ │ ├── tracking.css
+│ │ └── checkout/
+│ │ ├── checkout.css
+│ │ └── checkout-header.css
+│ └── shared/
+│ ├── amazon-header.css
+│ └── general.css
+│
+├── tests/
+│ ├── tests.html
+│ ├── MIT.LICENSE
+│ ├── checkout/orderSummaryTest.js
+│ ├── data/cartTest.js
+│ ├── utils/moneyTest.js
+│ ├── tests-simple/
+│ │ ├── moneyTest.js
+│ │ └── tests.html
+│ └── lib/jasmine-5.1.1/
+│ ├── boot0.js
+│ ├── boot1.js
+│ ├── jasmine-html.js
+│ ├── jasmine.css
+│ ├── jasmine.js
+│ └── jasmine_favicon.png
 
+yaml
+Copy
+Edit
+
+
+yaml
+Copy
+Edit
 
 ---
 
@@ -55,27 +119,47 @@ my-amazon-project/
 
 - HTML5
 - CSS3 (Flexbox/Grid)
-- JavaScript (Vanilla ES6+)
+- JavaScript (ES6+)
+- `localStorage` for state management
 
 ---
 
-## 🎥 Loom Walkthrough
+## 🌐 Live Demo
 
-🎬 _Coming soon_ – a walkthrough recording to explain structure, features, and future plans.
+👉 [View Project](https://khan4218.github.io/my-amazon-project/)
 
 ---
 
-## How to see my project
-    Just visit my landing page https://khan4218.github.io/my-amazon-project/
-    
+## 🎥 JavaScript Walkthrough Series
+
+Throughout this project, I documented each major step and concept in a Loom video series. This proves that every line of code was written and understood by me.
+
+📂 **Watch All Walkthrough Videos Here**  
+👉 [My JavaScript Walkthrough on Loom](https://loom.com/share/folder/bb721a45b61f4e4394cd501cb2f31387)
+
+### 📌 Topics Covered:
+- Project setup and folder structure
+- HTML page layouts
+- Styling with CSS (Flexbox & Grid)
+- Add to cart logic with DOM events
+- Cart total calculation and updates
+- `localStorage` implementation for persistence
+- Checkout, orders, and tracking flow
+- Advanced JS: async/await, error handling, modularization
+
+🎯 This folder contains 20+ short clips showing real-time development of the Amazon Clone — proving it's fully built by me.
+
+---
 
 ## 👨‍💻 Author
 
-Built from scratch by [Khan4218](https://github.com/Khan4218)  
-📍 Learning through hands-on implementation of real-world interfaces.
+Built by [Akbar Khan](https://github.com/Khan4218)  
+This project was completed as part of my hands-on learning through a JavaScript course, enhancing my skills in DOM manipulation, event handling, modular code, and real-world UI logic.
 
 ---
 
 ## 📚 Project Status
 
-**Status**: 🚧 Frontend layout, JavaScript functionality in development.
+✅ **Technically Complete** — This project includes all the key JavaScript concepts covered in the course.  
+🔁 Repetitive implementations were intentionally skipped to avoid redundancy and focus on applying concepts efficiently.
+
