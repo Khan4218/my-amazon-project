@@ -104,17 +104,7 @@ my-amazon-project/
 │ ├── jasmine.js
 │ └── jasmine_favicon.png
 
-yaml
-Copy
-Edit
-
-
-yaml
-Copy
-Edit
-
 ---
-
 ## 💡 Tech Stack
 
 - HTML5
